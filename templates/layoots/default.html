@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Title goes here</title>
+  <meta name="description" content="Description of your site goes here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link href="{{url_for("static",filename="css/style.css")}}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="main-out">
+	<div class="main">
+		<div class="page">
+			<div class="top">
+				<div class="header">
+					<div class="header-top">
+						<h1>DSP <span>Djelfa</span></h1>
+						<p>Call Us: 027 0000 000</p>
+					</div>
+					{% include 'pages/menu.html'%}
+					<div class="header-img">
+					<h2>Inspection santé publique</h2>
+					</div>
+				</div>
+				{% block body %}
+
+				{% endblock %}
+			</div>
+			{% include 'pages/bottom.html'%}
+			<!--DO NOT Remove The Footer Links-->
+		</div>
+	</div>
+</div>
+</body>
+</html>

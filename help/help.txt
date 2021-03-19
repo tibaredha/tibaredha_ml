@@ -1,6 +1,16 @@
 
 
 
+
+
+
+
+data science {
+data engenieur             = collecte + netoyage 
+data analyst               = netoyage + exploration des données 
+machine learning ingenieur = construction du model +  deploiement du model 
+} 
+
 ----------------------------------------------------------------------------------
 # columns for detailed visualisation
 cols=['baseline value', 'accelerations', 'fetal_movement',

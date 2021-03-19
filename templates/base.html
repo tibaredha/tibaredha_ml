@@ -8,9 +8,8 @@
 	<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">      
 </head>
 <body>
-{% block content %}
-
-
-{% endblock %}  
+{% include 'p_menu.html'%} 
+{% block content %}{% endblock %}
+{% include 'p_bottom.html'%}  
 </body>
 </html>
